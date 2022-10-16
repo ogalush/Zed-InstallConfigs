@@ -1,0 +1,12 @@
+## etcd(1) daemon options
+## See "/usr/share/doc/etcd-server/op-guide/configuration.md.gz"
+
+### Member flags
+ETCD_NAME="ryunosuke"
+ETCD_DATA_DIR="/var/lib/etcd"
+ETCD_INITIAL_CLUSTER_TOKEN="etcd-cluster-01"
+ETCD_INITIAL_CLUSTER="ryunosuke=http://192.168.3.200:2380"
+ETCD_INITIAL_ADVERTISE_PEER_URLS="http://192.168.3.200:2380"
+ETCD_ADVERTISE_CLIENT_URLS="http://192.168.3.200:2379"
+ETCD_LISTEN_PEER_URLS="http://0.0.0.0:2380"
+ETCD_LISTEN_CLIENT_URLS="http://192.168.3.200:2379"
